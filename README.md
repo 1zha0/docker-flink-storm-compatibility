@@ -2,7 +2,7 @@
 
 Basic [Docker](https://www.docker.com/) image to run [Flink](https://flink.apache.org/) with [Storm](http://storm.apache.org/) compabilitity mode enabled.
 This image is:
-- Based on [flink:<version>-alpine](https://hub.docker.com/r/_/flink/)
+- Based on [flink:\<version\>-alpine](https://hub.docker.com/r/_/flink/)
 - With Strom related jars added to /opt/flink/libs folders per [Storm Compatibility Beta](https://ci.apache.org/projects/flink/flink-docs-stable/dev/libs/storm_compatibility.html)
 
 ### Versions/tags
