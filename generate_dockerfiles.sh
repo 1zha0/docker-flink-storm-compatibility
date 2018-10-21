@@ -5,7 +5,7 @@ set -o pipefail -e
 # TEMPLATES
 # Dockerfile.flink-storm-compatibility.tpl
 
-FLINK_VERSIONS=(1.5.4-2.11--alpine 1.5.4-2.11-hadoop24-alpine 1.5.4-2.11-hadoop26-alpine 1.5.4-2.11-hadoop2-alpine 1.5.4-2.11-hadoop28-alpine 1.6.1-2.11--alpine 1.6.1-2.11-hadoop24-alpine 1.6.1-2.11-hadoop26-alpine 1.6.1-2.11-hadoop27-alpine 1.6.1-2.11-hadoop28-alpine )
+FLINK_VERSIONS=(1.5.4-2.11--alpine 1.5.4-2.11-hadoop24-alpine 1.5.4-2.11-hadoop26-alpine 1.5.4-2.11-hadoop27-alpine 1.5.4-2.11-hadoop28-alpine 1.6.1-2.11--alpine 1.6.1-2.11-hadoop24-alpine 1.6.1-2.11-hadoop26-alpine 1.6.1-2.11-hadoop27-alpine 1.6.1-2.11-hadoop28-alpine )
 
 MAVEN_REPO="http:\/\/central.maven.org\/maven2"
 
