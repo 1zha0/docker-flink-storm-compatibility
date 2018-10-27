@@ -28,8 +28,8 @@ Latest Flink with variant Hadoop support:
 
 You can run a JobManager (master).
 
-    docker run --name flink_jobmanager -d -t flink-storm-support jobmanager
+    docker run --name flink_jobmanager -d -t makingsense/flink-storm-support jobmanager
 
 You can also run a TaskManager (worker). Notice that workers need to register with the JobManager directly or via ZooKeeper so the master starts to send them tasks to execute.
 
-    docker run --name flink_taskmanager -d -t flink-storm-support taskmanager
+    docker run --name flink_taskmanager -d -t makingsense/flink-storm-support taskmanager
